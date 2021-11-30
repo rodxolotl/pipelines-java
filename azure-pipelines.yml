@@ -1,5 +1,10 @@
 trigger:
-- main
+  - main
+  - releases/*
+
+pr:
+  - main
+  - releases/*
 
 strategy:
   matrix:
